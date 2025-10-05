@@ -1,0 +1,352 @@
+/* nav style */
+nav{
+
+    display:flex;     /* eta nav a bosiache karon nav a h3 tag ar ul tag ache  */
+                      /*h3 ar ul er jinis gulo vertically pasapasi bosche */
+    
+    justify-content: space-between;
+    align-items: center;    /*h3 ar ul er jinis gulo ak line a anbe */
+    margin:50px 230px; 
+
+}
+
+
+ /* <weight>: Use a value from 300 to 800 */
+ /* <uniquifier>: Use a unique and descriptive class name */
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* eta (Mary) likha ta mota baniache ar nich a niyeche aktu */
+.nav-title{
+
+    font-size: 45px;
+    font-weight: 800px;
+}
+
+/* eta (Mary) likha tar (r )  er orrange color hoyeche  span tag use kore*/
+.common-color-style{
+
+color:#FD6E0A;
+}
+
+/* anchor er moddhe likha gulor samne thake fota gulo chole gache */
+nav ul li  {
+
+    list-style: none;
+}
+
+nav ul li a{
+
+    text-decoration:none ;
+    font-size: 20px;       /*  portfolio,blog,hire me er font size */
+
+      margin-right: 51px;  
+
+
+    }
+
+
+
+ ul{ 
+
+    display: flex;
+    align-items: center;
+}
+
+/* similer use */
+.dark-2{
+
+
+    color: #474747;        /*  portfolio,blog,hire me er color*/
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    padding: 18px 35px ;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.banner{
+    display: flex;
+    /* align-content: center; */
+    justify-content: space-between;
+    margin: 0px 35px 0px 230px ;
+    
+}
+
+
+.banner-welcome{
+
+    font-size: 45px;
+    font-weight:600;
+
+}
+.banner-title{
+
+    font-size:85px ;
+    font-weight:bold ;
+}
+
+
+.banner-description{
+
+    font-size: 18px;
+    font-weight:400px ;
+}
+
+.banner-content{
+
+max-width: 589px;
+}
+
+
+
+
+.banner-profile-picture{
+
+
+    width: 584px;
+}
+
+/* background pic gulor */
+
+.header-picture{
+
+    background-image: url(../images/developer.png) , url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;    
+}
+
+
+/* 2nd part */
+
+/* sectoin */
+
+
+.background-color-pink{
+
+    background-color: #FFF8F3;
+    
+}
+
+.section-title{
+
+font-size: 35px;
+font-weight: bold;
+color: #181818;
+
+}
+
+.section-description{
+
+font-size: 18px;
+font-weight: 400px;
+color: #757575;
+
+}
+
+
+
+
+
+.about{
+    
+    
+    text-align: center;
+    border-radius: 10px;
+    padding: 130px 150px;
+    /* margin-top: 130px;       eta use korbo na karon main er moddhe sob  section er ak sathe  */
+                                    /* top margin bosabo */
+}
+
+
+/* main style */
+
+ main{ 
+    max-width: 1140px;
+    margin: 0 auto;
+    
+
+
+}
+
+.item-description{
+
+
+    font-weight: 600;
+}
+
+
+.about-items{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* .................................................................. */
+/* akhan a opor er top margin rackbo  */
+
+/* main ar moddhe section er joto top margin hobe sob akhan a paoua jbe  */
+
+    main section{
+
+        margin-top: 130px;
+    }
+
+
+/* ................................................................... */
+
+
+
+
+    /* 3rd part */
+
+    /* another section  */
+
+
+.text-center{
+
+    text-align: center;
+} 
+
+.section-container{
+
+display: flex;
+gap:24px;
+
+
+
+}
+
+.skill{
+
+padding: 30px;
+border-radius:5px ;
+box-shadow: 0px 6px 50px 0px  rgba(0, 0, 0, 0.06);
+
+
+
+}
+
+section p{
+    margin-bottom: 50px;
+}
+
+         /* *******4th part****** */
+
+/* section ////////////// another resume */
+
+.resume-container{
+
+    display: flex;
+    gap:27px;
+}
+
+
+.Experiance-dexcription{
+ 
+    color: rgba(117, 117, 117, 1);
+
+}
+
+
+.Experiance-subtitle{
+
+ color:  rgba(117, 117, 117, 1) ; 
+
+}
+
+
+.resume-download-cv{
+
+ margin-top: 50px;
+ margin-bottom: 113px;
+
+  }
+
+
+
+
+
+  /* last /5th part          */
+
+    
+footer {
+
+display: flex;
+padding: 130px 215px ;
+
+ gap: 100px;
+
+
+  }
+  
+  
+.footer-column{
+    width:50%
+}
+  
+  .sect-title {
+
+        font-size: 35px;
+        font-weight: bold;
+
+    }
+
+.section-descriptions {
+
+    font-size: 16px;
+    font-weight: 400px;                                               
+    padding-top: 20px;
+   padding-bottom: 30px;
+  }
+
+     footer input[ type="text"],footer input[ type="Email"]  {
+      
+        padding: 8px 15px;
+        display: block;
+        margin-bottom: 24px;
+        height: 64px;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        background-color:white;
+
+
+     }
+
+footer textarea {
+        padding-bottom: 134px;
+        padding-top:18px;
+        padding-left: 30px;
+       
+        display: block;
+        margin-bottom: 24px;
+        height: 64px;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        background-color:white;
+
+}
+
+
+
+/* .......................finish....................... */
+
+
+
+
+
